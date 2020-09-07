@@ -1,7 +1,7 @@
 # AtCoder Library, implemented with Kotlin
 
-[AtCoder Library (ACL)](https://atcoder.jp/posts/517) のKotlinへの移植です。  
-このリポジトリでは、基本的に移植元に近い実装を目指します。  
+- [AtCoder Library (ACL)](https://atcoder.jp/posts/517) のKotlinへの移植です。  
+- このリポジトリでは、基本的に移植元に近い実装を目指します。  
 
 # Requirement
 
@@ -15,6 +15,8 @@
 - Build tools
     - Gradle
 
+(これで足りてると思ってるけど足りてないかも)
+
 # Contributing
 
-[CONTRIBUTING.MD](CONTRIBUTING.md) を参照してください。
+- [CONTRIBUTING.MD](CONTRIBUTING.md) を参照してください。
