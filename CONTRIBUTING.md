@@ -7,7 +7,7 @@
 
 # 基本事項
 
-- 基本的に、移植元に近い実装を目指します。
+- 基本的に、移植元に近い実装を目指します。また、interfaceや計算量も同等を目標にします。
     - ただし移植元に近い実装がKotlinで表現不可能な場合、あるいはパフォーマスへ無視できない影響がある場合は代替的な書き方も許容します。
 - testはLibrary CheckerをCIに組み込むのが理想ですが、verify用コンテストがあるのでそれで済ませてしまうかも。 #21 にて検討中。
 
@@ -22,6 +22,6 @@
 
 # Pull Requestについて
 
-- `#issue-number` にはどのIssueを解決したか記載して下さい。
-- verifyした提出コードには [AtCoder Library Practice Contest](https://atcoder.jp/contests/practice2) で該当ライブラリの問題をACした提出コードのリンクを張って下さい。
+- テンプレートの `#issue-number` にはどのIssueを解決したか記載して下さい。
+- verifyした提出コード には [AtCoder Library Practice Contest](https://atcoder.jp/contests/practice2) で該当ライブラリの問題をACした提出コードのリンクを張って下さい。
     - 正直ダサいのでなんかいいやり方とかあれば意見もらえると喜びます。
