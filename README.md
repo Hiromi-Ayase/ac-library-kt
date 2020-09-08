@@ -1,4 +1,4 @@
-# AtCoder Library, implemented with Kotlin
+# AtCoder Library, transportation for Kotlin
 
 - [AtCoder Library (ACL)](https://atcoder.jp/posts/517) のKotlinへの移植です。  
 - このリポジトリでは、基本的に移植元に近い実装を目指します。  
