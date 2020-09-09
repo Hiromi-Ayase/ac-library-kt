@@ -1,7 +1,5 @@
 package jp.atcoder.library.kotlin.modInt
 
-import jp.atcoder.library.kotlin.fenwickTree.FenwickTree
-import org.junit.Assert
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

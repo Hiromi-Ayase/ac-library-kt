@@ -1,7 +1,6 @@
 package jp.atcoder.library.kotlin.fenwickTree
 
 import org.junit.Assert.*
-import org.junit.Before
 import org.junit.Test
 
 class FenwickTreeTest {
@@ -19,7 +18,7 @@ class FenwickTreeTest {
         assertEquals(9, ft.sum(0, 4))
     }
 
-    @Test()
+    @Test
     fun fenwickTreeFromArrayTest() {
         val array = longArrayOf(2, 3, 4, 1)
         val ft = FenwickTree(array)

@@ -1,13 +1,12 @@
 package jp.atcoder.library.kotlin.dsu
 
 import org.junit.Assert.*
-import org.junit.Before
 import org.junit.Test
 
 class DSUTest {
     @Test
     fun dsuTest() {
-        var dsu = DSU(10)
+        val dsu = DSU(10)
         dsu.merge(2, 3)
         dsu.merge(4, 5)
 
@@ -26,7 +25,7 @@ class DSUTest {
         assertNotEquals(dsu.leader(0), dsu.leader(2))
 
         // groups assertion.
-        var buckets = dsu.groups()
+        val buckets = dsu.groups()
         assertEquals(7, buckets.size)
     }
 }
